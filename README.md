@@ -161,7 +161,3 @@ logger.Logger.Error("incident created", zap.String("title", incident.Title))
 ## 🧠 Author
 
 [Kaniya Tarapara](https://github.com/khtarapara/)
-
-```
-
-```
