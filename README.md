@@ -25,14 +25,14 @@ A full-stack AI-powered Incident Triage application using:
 
 ### 🔧 1. Backend (Go)
 
-\`\`\`bash
+```bash
 cd incident-ai-backend
 go run main.go
-\`\`\`
+```
 
 Create \`.env\`:
 
-\`\`\`env
+```env
 PORT=8080
 DB_USER=root
 DB_PASS=yourpass
@@ -40,19 +40,19 @@ DB_HOST=127.0.0.1:3306
 DB_NAME=incident_db
 FRONTEND_ORIGIN=http://localhost:5173
 OPENROUTER_API_KEY=your-openrouter-key
-\`\`\`
+```
 
 Install deps:
 
-\`\`\`bash
+```bash
 go get
-\`\`\`
+```
 
 Run:
 
-\`\`\`bash
+```bash
 go run main.go
-\`\`\`
+```
 
 Swagger UI: [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)
 
@@ -60,11 +60,11 @@ Swagger UI: [http://localhost:8080/swagger/index.html](http://localhost:8080/swa
 
 ### 💻 2. Frontend (React)
 
-\`\`\`bash
+```bash
 cd incident-ai-frontend
 npm install
 npm run dev
-\`\`\`
+```
 
 ---
 
@@ -72,16 +72,16 @@ npm run dev
 
 ### ✅ Backend
 
-\`\`\`bash
+```bash
 
 # Unit + integration tests
 
 go test ./tests/...
-\`\`\`
+```
 
 ### ✅ Frontend
 
-\`\`\`bash
+```bash
 
 # Component/unit tests
 
@@ -90,7 +90,7 @@ npx vitest
 # E2E tests with Playwright
 
 npx playwright test
-\`\`\`
+```
 
 ---
 
@@ -119,7 +119,7 @@ You can toggle between:
 
 ## 📁 Folder Structure Highlights
 
-\`\`\`
+```
 incident-ai-backend/
 ├── models/
 ├── controllers/
@@ -133,7 +133,7 @@ incident-ai-frontend/
 ├── src/components/
 ├── src/api/
 ├── src/tests/
-\`\`\`
+```
 
 ---
 
@@ -141,9 +141,9 @@ incident-ai-frontend/
 
 Structured logging with \`log\`. Usage:
 
-\`\`\`go
+```go
 logger.Logger.Error("incident created", zap.String("title", incident.Title))
-\`\`\`
+```
 
 ---
 
@@ -161,3 +161,7 @@ logger.Logger.Error("incident created", zap.String("title", incident.Title))
 ## 🧠 Author
 
 Built by [Kanaiya] for AI-powered DevOps assignments. For architecture consulting, visit [sammuti.com](https://sammuti.com)
+
+```
+
+```
