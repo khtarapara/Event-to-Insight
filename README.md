@@ -160,7 +160,7 @@ logger.Logger.Error("incident created", zap.String("title", incident.Title))
 
 ## 🧠 Author
 
-Built by [Kanaiya] for AI-powered DevOps assignments. For architecture consulting, visit [sammuti.com](https://sammuti.com)
+[Kaniya Tarapara](https://github.com/khtarapara/)
 
 ```
 
